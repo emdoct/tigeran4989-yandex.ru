@@ -68,6 +68,7 @@ svg {
     width: 250px;
     justify-content: center;
     border-radius: 10px;
+    position: relative;
 }
 
 .callback-form form, .knowmore-form form {
@@ -88,6 +89,20 @@ svg {
 	text-decoration: none;
 	background-color: #f53f4f;
 
+}
+
+.cls__btn, .know-cls__btn  {
+	position: absolute;
+	right: -15px;
+
+}
+
+.cls__btn a, .know-cls__btn a{
+	border-radius: 30px;
+	color: white;
+	padding: 5px 10px;
+	text-decoration: none;
+	background-color: #f53f4f;
 }
 
 
@@ -950,6 +965,10 @@ svg {
 		flex-basis: 300px;
 	}
 
+	.contacts-btn {
+		margin-right: 10px;
+	}
+
 	.vk, .face, .inst, .twit {
 		margin-right: 20px;
 	}
@@ -1126,7 +1145,7 @@ svg {
 	.personal-text h2 {
 		font-size: 16px;
 		width: 216px;
-		text-align: center;
+		
 		margin-bottom: 31px;
 	}
 
@@ -1264,7 +1283,7 @@ svg {
 	}
 
 	.vk {
-		margin-left: 20px;
+		margin-left: 0px;
 	}
 
 	.inst {
@@ -1277,4 +1296,30 @@ svg {
 
 	
 	
+}
+
+@media (max-width: 320px) {
+		
+	.personal-text {
+		align-items: flex-start;
+	}	
+
+	.personal-fio h1{
+		margin-left: 5px;
+	}
+
+	.personal-text h2 {
+		width: 217px;
+		align-self: center;
+	}
+
+	.contacts-btn {
+		margin-right: 0;
+	}
+
+
+	
+
+
+
 }
