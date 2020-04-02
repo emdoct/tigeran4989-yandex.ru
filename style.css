@@ -620,18 +620,18 @@ svg {
 	}
 
 	.contacts-phone {
-		background-image: url('img/icon/phone.png');
+		background-image: url('img/phone.png');
 		background-repeat: no-repeat;
-		background-position: 0 6px;
-		background-size: 6%;
+		background-position: 0 4px;
+		
 		font-size: 25px;
 	}
 
 	.contacts-mail {
-		background-image: url('img/icon/email.png');
+		background-image: url('img/mail.png');
 		background-repeat: no-repeat;
-		background-position: 0 10px;
-		background-size: 6%;
+		background-position: 0 5px;
+		
 		font-size: 25px;
 	}
 
@@ -966,7 +966,7 @@ svg {
 	}
 
 	.contacts-btn {
-		margin-right: 10px;
+		margin-right: 5px;
 	}
 
 	.vk, .face, .inst, .twit {
