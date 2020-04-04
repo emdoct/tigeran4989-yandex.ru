@@ -30,10 +30,30 @@ $(function(){
 		]
 	});
 
-	/*Отмена дефолтного поведения при клике на ссылку*/
-	/*$('a').on('click', function(evt) {
-		evt.preventDefault();
-	});*/
+	
+
+	    $('.uslugi').on('click', function (event) {
+
+	    	   let usl = $(this).attr('href');
+	    	   let top = $(usl).offset().top;
+	    	  $('body,html').animate({scrollTop: top}, 800);
+	    });
+
+	    $('.portfolio').on('click', function (event) {
+
+	    	   let usl = $(this).attr('href');
+	    	   let top = $(usl).offset().top;
+	    	  $('body,html').animate({scrollTop: top}, 800);
+	    });
+
+	    $('.coast').on('click', function (event) {
+
+	    	   let usl = $(this).attr('href');
+	    	   let top = $(usl).offset().top;
+	    	  $('body,html').animate({scrollTop: top}, 800);
+	    });
+
+
 
 	/*Убираем/показываем меню при клике на бургер*/
 

@@ -1311,6 +1311,7 @@ svg {
 	.personal-text h2 {
 		width: 217px;
 		align-self: center;
+		padding-right: 20px;
 	}
 
 	.contacts-btn {
