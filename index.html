@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>landing</title>
+	<title>Дипломная работа Березина Кирилла</title>
+	 <link rel="icon" href="img/icon/favicon.jpg" type="image/x-icon">
 	<link rel="stylesheet" href="style.css">
 	<!-- Подключение слайдера -->
 	<link rel="stylesheet" type="text/css" href="./slick/slick.css">
@@ -25,21 +26,21 @@
 				</div>
 				
 				<nav class="menu">
-					<a href="#">Услуги</a>
-					<a href="#">Портфолио</a>
-					<a href="#">Стоимость</a>
+					<a href="#uslugi" class="uslugi">Услуги</a>
+					<a href="#portfolio" class="portfolio">Портфолио</a>
+					<a href="#coast" class="coast">Стоимость</a>
 
 				</nav>
 				
-				<div class="number"><a href="tel:" >+7(499)995-77-55</a></div>
+				<div class="number"><a href="tel:+7(499)995-77-55" >+7(499)995-77-55</a></div>
 					<a class="btn-top" href="#">Заказать звонок</a>
 				</div>	
 		</div>
 		<div class="mobileMenu-container">
 			<nav class="mobile-menu">
-					<a href="#">Услуги</a>
-					<a href="#">Портфолио</a>
-					<a href="#">Стоимость</a>
+					<a href="#uslugi" class="uslugi" >Услуги</a>
+					<a href="#portfolio" class="portfolio" >Портфолио</a>
+					<a href="#coast" class="coast" >Стоимость</a>
 
 			</nav>
 		</div>
@@ -50,6 +51,7 @@
 		<div class="callback-block">
 			
 				<div class="callback-form">
+					<div class="cls__btn"><a href="#">X</a></div>
 					<form action="#">
 						<input type="text" id="callback__fio" placeholder="Фамилия и Имя">
 						<input type="text" id="callback__number" placeholder="Номер телефона">
@@ -62,6 +64,7 @@
 		<div class="knowmore-block">
 			
 				<div class="knowmore-form">
+					<div class="know-cls__btn"><a href="#">X</a></div>
 					<form action="#">
 						<input type="text" id="knowmore__fio" placeholder="Фамилия и Имя">
 						<input type="text" id="knowmore__number" placeholder="Номер телефона">
@@ -197,15 +200,16 @@
 	  					<a href="#" class="personal-btn">Узнать больше</a>
 	  				</div>
 		  				<picture class="personal__img">
-		  					<img src="img/man.png" alt=""> 
+		  					<source srcset="img/webp/man.webp" type="image/webp">
+		  					<img src="img/man.png" alt="man img">
 		  				</picture>
 					
 
 	  			</div>
 	  		</section>  
-	  		
+	  	
 	  		<section class="deals-block">
-	  			
+	  			<a id="uslugi"></a>
 	  			<div class="deals-contant">
 	  				<h2>Что я делаю</h2>
 	  					  		 	<div class="deals-list">
@@ -228,7 +232,7 @@
 	  					  		 			<img src="img/deals4.png" alt="">
 	  					  		 			Исправление и доработка существующей вёрстки
 	  					  		 		</div>
-	  		 	</div>
+	  		 						</div>
 	  		 	<a href="#" class="deals-btn">Узнать стоимость</a>
 	  			</div>
 	  		 	
@@ -236,7 +240,7 @@
 	  		
 	  		 	
 	  		<section class="example-block">
-	  		 	
+	  		 	<a id="portfolio"></a>
 	  		 	<h2>Примеры моих работ</h2>
 	  		 	
 	  		 	
@@ -244,24 +248,43 @@
 	  		 	 <div class="slider-container">
 			  			<div class="slider">
 			  		 		<div class="slider__item">
-			  		 				<div class="slider__img"><a href="#"><img src="img/exampl1.jpg" alt=""></a></div>
+			  		 				<picture class="slider__img">
+			  		 					<a href="#">
+			  		 						<source srcset="img/webp/exampl1.webp" type="image/webp">
+			  		 						<img src="img/exampl1.jpg" alt="psiho web">
+			  		 					</a>
+			  		 				</picture>
 			  		 				Сайт психолога Веры Антоновой
 			  		 		</div>
 
 			  		 		<div class="slider__item">
-			  		 				<div class="slider__img"><a href="#"><img src="img/exampl2.jpg" alt=""></a></div>
+			  		 				<picture class="slider__img">
+			  		 					<a href="#">
+			  		 						<source srcset="img/webp/exampl2.webp" type="image/webp">  
+			  		 						<img src="img/exampl2.jpg" alt="child web">
+			  		 					</a>
+			  		 				</picture>
 			  		 				Сайт магазина детской одежды
 			  		 		</div>
 			  		 	
 			  		 		
 
 			  		 		<div class="slider__item">
-			  		 				<div class="slider__img"><a href="#"><img src="img/exampl3.jpg" alt=""></a></div>
+			  		 				<picture class="slider__img">
+			  		 					<a href="#">
+			  		 						<source srcset="img/webp/exampl3.webp" alt="image/webp"> 
+			  		 						<img src="img/exampl3.jpg" alt="fish web">
+			  		 					</a></picture>
 			  		 				Сайт магазина &laquo;Рыболов&raquo;
 			  		 		</div>
 
 			  		 		<div class="slider__item">
-			  		 				<div class="slider__img"><a href="#"><img src="img/exampl1.jpg" alt=""></a></div>
+			  		 				<picture class="slider__img">
+			  		 					<a href="#">
+			  		 						<source srcset="img/webp/exampl1.webp" type="image/webp"> 
+			  		 						<img src="img/exampl1.jpg" alt="psiho web">
+			  		 					</a>
+			  		 				</picture>
 			  		 				Сайт психолога Веры Антоновой
 			  		 		</div>
 
@@ -370,7 +393,7 @@
 	  				  		 	  				-25 18 -28 18 -33 3z"/>
 	  				  		 	  				</g>
 	  				  		 	  </svg> 
-	  					  
+	  			<a id="coast"></a>	  
 	  				  		 	
 	  			<div class="reference-text">
 	  				  		 		<h2>Адаптивная вёрстка под все устройства<br> и браузеры от 1000 рублей сего за 4 часа.*</h2>
@@ -383,16 +406,16 @@
 	  		 	
 	  		 	<div class="contacts-deals__list">
 	  		 		<ul>
-	  		 			<li><a href="#">Услуги</a></li>
-	  		 			<li><a href="#">Портфолио</a></li>
-	  		 			<li><a href="#">Стоимость</a></li>
+	  		 			<li><a href="#uslugi" class="uslugi">Услуги</a></li>
+	  		 			<li><a href="#portfolio" class="portfolio">Портфолио</a></li>
+	  		 			<li><a href="#coast" class="coast">Стоимость</a></li>
 	  		 		</ul>
 	  		 	</div>
 	  		 	
 	  		 	<div class="contacts-info">
 	  		 		<ul>
-	  		 			<li class="contacts-phone"><a href="tel:">+7(499) 995-77-55</a></li>
-	  		 			<li class="contacts-mail"><a href="mail:">dmitry@alekseev.com</a></li>
+	  		 			<li class="contacts-phone"><a href="tel:+7(499) 995-77-55">+7(499) 995-77-55</a></li>
+	  		 			<li class="contacts-mail"><a href="mail:dmitry@alekseev.com">dmitry@alekseev.com</a></li>
 	  		 		</ul>
 	  		 	</div>
 	  		 	

@@ -30,10 +30,30 @@ $(function(){
 		]
 	});
 
-	/*Отмена дефолтного поведения при клике на ссылку*/
-	$('a').on('click', function(evt) {
-		evt.preventDefault();
-	});
+	
+
+	    $('.uslugi').on('click', function (event) {
+
+	    	   let usl = $(this).attr('href');
+	    	   let top = $(usl).offset().top;
+	    	  $('body,html').animate({scrollTop: top}, 800);
+	    });
+
+	    $('.portfolio').on('click', function (event) {
+
+	    	   let usl = $(this).attr('href');
+	    	   let top = $(usl).offset().top;
+	    	  $('body,html').animate({scrollTop: top}, 800);
+	    });
+
+	    $('.coast').on('click', function (event) {
+
+	    	   let usl = $(this).attr('href');
+	    	   let top = $(usl).offset().top;
+	    	  $('body,html').animate({scrollTop: top}, 800);
+	    });
+
+
 
 	/*Убираем/показываем меню при клике на бургер*/
 
@@ -45,22 +65,33 @@ $(function(){
 	/*Показываем или убираем форму заказа звонка при клике на кнопки*/
 
 	$('.btn-top').on('click', function(callbackShow){
+		callbackShow.preventDefault();
 		$('.callback-block').show();
 	});
 
 	$('.contacts-btn').on('click', function(callbackShow){
+		callbackShow.preventDefault();
 		$('.callback-block').show();
 	});
 
 	
 
-	$('.callback__send').on('click', function(callbackSend){
+	$('.callback__send').on('click', function (evt){
+			evt.preventDefault();
 		$('#callback__fio').val('');
 		$('#callback__number').val('');
 		$('.callback-block').hide();
 		
 		
 	});
+
+	$('.cls__btn').on('click', function (evt){
+		evt.preventDefault();
+		$('#callback__fio').val('');
+		$('#callback__number').val('');
+		$('.callback-block').hide();
+	});
+	
 
 
 	$('.callback-block').on('click',  function(event){
@@ -73,19 +104,31 @@ $(function(){
 
 	/*Показываем или убираем форму заказа при клике на кнопки*/
 
-	$('.personal-btn').on('click', function(){
+	$('.personal-btn').on('click', function(evt){
+		evt.preventDefault();
 		$('.knowmore-block').show();
 	});
 
-	$('.deals-btn').on('click', function(){
+	$('.deals-btn').on('click', function(evt){
+		evt.preventDefault();
 		$('.knowmore-block').show();
 	})
 
-	$('.btn-exampls').on('click', function(){
+	$('.btn-exampls').on('click', function(evt){
+		evt.preventDefault();
 		$('.knowmore-block').show();
 	});
 
 	$('.knowmore__send').on('click', function(callbackSend){
+		callbackSend.preventDefault();
+		$('#knowmore__fio').val('');
+		$('#knowmore__number').val('');
+		$('#knowmore__email').val('');
+		$('.knowmore-block').hide();
+	});
+
+	$('.know-cls__btn').on('click', function (formCls){
+		formCls.preventDefault();
 		$('#knowmore__fio').val('');
 		$('#knowmore__number').val('');
 		$('#knowmore__email').val('');
