@@ -45,9 +45,13 @@ svg {
 	transition: 2s;
 }
 
-input:focus {
+input, input:focus {
 	border: solid 1px #ff4e2e;
 	
+}
+
+input:focus {
+	border-color: #ff4e3e;
 }
 
 
