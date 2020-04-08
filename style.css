@@ -739,6 +739,7 @@ input:focus {
 	}
 	.reference svg:nth-of-type(2) {
 		bottom: 33px;
+	}
 }
 
 @media (max-width: 1350px) {
