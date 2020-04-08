@@ -227,7 +227,9 @@ input:focus {
 	color: #f53f4f;
 	text-decoration: none;
 	border: solid 1px #f82370;
-	padding: 20px 35px ;
+	width: 207px;
+	height: 45px;
+	line-height: 45px;
 	font-size: 16px;
 	margin-right: 0;
 	text-align: center;
@@ -320,6 +322,7 @@ input:focus {
 	.personal-text h2 {
 		font-size: 25px;
 		margin-bottom: 51px;
+		font-weight: 400;
 
 	}
 
@@ -334,17 +337,25 @@ input:focus {
 	.personal-btn {
 		color: white;
 		text-decoration: none;
-		padding: 23px 75px 23px 65px;
+		width: 270px;
+		height: 60px;
+		line-height: 60px;
+		display: block;
+		text-align: center;
 		background-color: #ff4e2e;
 		font-size: 18px;
 
 	}
 
+	
 
 	.deals-btn {
 		color: white;
 		text-decoration: none;
-		padding: 21px 85px;
+		width: 270px;
+		height: 60px;
+		line-height: 60px;
+		text-align: center;
 		background-color: #ff4e2e;
 		font-size: 18px;
 	}
@@ -534,7 +545,10 @@ input:focus {
 	.btn-exampls {
 		color: white;
 		text-decoration: none;
-		padding: 25px 65px;
+		width: 270px;
+		height: 60px;
+		line-height: 60px;
+		text-align: center;
 		background-color: #ff4e2e;
 		font-size: 18px;
 	}
@@ -594,11 +608,16 @@ input:focus {
 		font-weight: bold;
 		font-size: 45px;
 	}
-
+	.referenca-text__small {
+		display: flex;
+	}
 	.reference p {
 		margin: 0 auto 88px auto;
 		font-size: 18px;
+		padding-right: 29%;
 	}
+
+
 
 .contacts-block {
 	display: flex;
@@ -660,11 +679,12 @@ input:focus {
 		color: #f53f4f;
 		text-decoration: none;
 		border: solid 1px #f82370;
-		padding: 19px 56px 17px 60px;
+		width: 248px;
+		height: 45px;
+		line-height: 45px;
 		font-size: 16px;
 		margin-right: 0;
 		text-align: center;
-		font-size: 16px;
 	}
 
 
@@ -711,6 +731,15 @@ input:focus {
 
 
 /* --Медиа Запросы-- */
+
+@media (max-width: 1600px) {
+
+	.reference svg:nth-of-type(1) {
+		top: 40px;
+	}
+	.reference svg:nth-of-type(2) {
+		bottom: 33px;
+}
 
 @media (max-width: 1350px) {
 	.personal__img img{
@@ -779,8 +808,8 @@ input:focus {
 	}
 
 	.personal-btn {
-		padding: 32px 109px 27px 96px;
-	}
+		width: 320px;
+	} 
 
 	.personal__img img {
 		margin-right: 40px;
@@ -788,7 +817,7 @@ input:focus {
 
 	.btn-top {
 		font-size: 16px;
-		padding: 17px 37px 15px 40px;
+		
 	}
 
 
@@ -818,7 +847,10 @@ input:focus {
 	
 
 	.deals-btn {
-		padding: 21px 97px;
+		width: 320px;
+		height: 68px;
+		line-height: 68px;
+		margin-top: 10px;
 	}
 
 	.deals-list {
@@ -833,10 +865,7 @@ input:focus {
 		margin-bottom: 90px;
 	}
 
-	.deals-btn {
-		margin-top: 10px;
-	}
-
+	
 	.exampls-list {
 		width: 100%;
 	}
@@ -885,7 +914,9 @@ input:focus {
 	}
 	
 	.btn-exampls {
-		padding: 28px 85px;
+		width: 320px;
+		height: 68px;
+		line-height: 68px;
 	}
 
 
@@ -919,6 +950,11 @@ input:focus {
 	    bottom: 32px;
 	}
 
+	.reference p {
+		
+		padding-right: 28%;
+	}
+
 	.contacts-social {
 		margin-right: 40px;
 	}
@@ -943,6 +979,10 @@ input:focus {
 	.personal-text {
 		order: 2;
 		text-align: center;
+	}
+
+	.personal-btn {
+		margin: 0 auto;
 	}
 
 	.personal__img {
@@ -975,11 +1015,12 @@ input:focus {
 	}
 
 	.contacts-social {
-		flex-basis: 300px;
+		flex-basis: 240px;
 	}
 
 	.contacts-btn {
 		margin-right: 5px;
+		width: 190px; 
 	}
 
 	.vk, .face, .inst, .twit {
@@ -1164,10 +1205,11 @@ input:focus {
 
 	.personal-text a {
 	 	font-size: 16px;
-	 	padding: 21px 73px 21px 83px;
+	 	
 	 }
 	.personal__img {
-		width: 224px;;
+		width: 224px;
+		height: 328px; /* высота добавлена, так как на xiomi отображается отвратно */
 		padding-left: 56px;
 		padding-right: 20px;
 		margin-right: 0;
@@ -1178,8 +1220,9 @@ input:focus {
 	}
 
 	.personal-btn {
-		padding: 24px 70px 22px 85px;
-	}
+		width: 280px;
+		margin: 0;
+	} 
 
 	
 
@@ -1203,7 +1246,9 @@ input:focus {
 	}
 
 	.deals-btn {
-		padding: 21px 49px 21px 67px;
+		width: 270px;
+		height: 55px;
+		line-height: 55px;
 		font-size: 18px;
 	}
 
@@ -1231,7 +1276,9 @@ input:focus {
 	}
 
 	.btn-exampls {
-		padding: 24px 77px;
+		width: 280px;
+		height: 55px;
+		line-height: 55px;
 		font-size: 16px;
 	}
 
@@ -1253,10 +1300,14 @@ input:focus {
 
 	}
 
+	.referenca-text__small {
+		margin-left: 20px;
+	}
+
 	.reference p {
 		font-size: 15px;
-		padding-left: 20px;
 		line-height: 33px;
+		padding-right: 38px;
 	}
 
 	.contacts-block {
@@ -1278,12 +1329,10 @@ input:focus {
 		color: #8993ad;
 	}
 
-	.contacts-social {
-		flex-basis: 300px;
-	}
-
+	
 	.contacts-social {
 		margin-left: 20px;
+		flex-basis: 280px;
 	}
 
 	.contacts-btn {
@@ -1291,7 +1340,11 @@ input:focus {
 		color: white;
 		margin-bottom: 50px;
 		font-size: 16px;
-		padding: 21px 56px 21px 76px;
+		width: 280px;
+		height: 55px;
+		line-height: 55px;
+		text-align: center;
+
 
 	}
 
