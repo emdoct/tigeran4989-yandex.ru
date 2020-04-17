@@ -188,7 +188,7 @@ input:focus {
 
 
 	.menu-container {
-		margin-top: 35px;
+		margin-top: 29px;
 		display: flex;
 		flex-basis: 1170px;
 		align-items: center;
@@ -221,6 +221,10 @@ input:focus {
 		text-decoration: none;
 	}
 
+	.number a:hover {
+		color: #f82370;
+	}
+
 
 
 .btn-top {
@@ -234,6 +238,12 @@ input:focus {
 	margin-right: 0;
 	text-align: center;
 	font-size: 16px;
+}
+
+.btn-top:hover {
+	border-color: #c14b55;
+	color: #c14b55;
+	transition: 0.1s;
 }
 
 
@@ -273,20 +283,21 @@ input:focus {
 	}
 
 	.personal-block svg:nth-of-type(1) {
+		top: -15px;
 		left:133px;
 		width: 47px;
 	}
 
 	.personal-block svg:nth-of-type(2) {
-		top: 196px;
+		top: 223px;
 		left: 245px; 
 		width: 35px;
 		
 	}
 
 	.personal-block svg:nth-of-type(3) {
-		bottom: 184px;
-		left: 767px;
+		bottom: 190px;
+		left: 952px;
 		width: 84px;
 	}
 
@@ -298,9 +309,9 @@ input:focus {
 
 	.personal-block svg:nth-of-type(5) {
 		
-		top: 12px;
-		left: 648px;
-		width: 51px;
+		top: 14px;
+		left: 791px;
+		width: 63px;
 		transform: rotate(-34deg);
 	}
 
@@ -310,20 +321,29 @@ input:focus {
 	} 
 
 	.personal-text {
-		margin-top: 109px;
+		margin-top: 77px;
 	}
 
 
 	.personal-text h1 {
-		font-size: 54px;
+		font-size: 80px;
 		font-weight: 900;
 	}
 
 	.personal-text h2 {
 		font-size: 25px;
-		margin-bottom: 51px;
+		margin-bottom: 45px;
 		font-weight: 400;
 
+	}
+
+	.personal-fio {
+		margin-bottom: 14px;
+	}
+
+	.personal-skills {
+		color: #8993ad;
+		margin:0 0 50px 0;
 	}
 
 	.personal__img {
@@ -347,6 +367,14 @@ input:focus {
 
 	}
 
+	.personal-btn:hover, .deals-btn:hover, .btn-exampls:hover {
+		color: black;
+		background-color: white;
+		border: solid 1px #ff4e2e;
+		transition: 0.3s;
+		box-sizing: border-box;
+	}
+
 	
 
 	.deals-btn {
@@ -360,14 +388,7 @@ input:focus {
 		font-size: 18px;
 	}
 
-	.personal-fio {
-		margin-bottom: 26px;
-	}
-
-	.personal-skills {
-		color: #8993ad;
-		margin:0 0 50px 0;
-	}
+	
 
 .deals-block {
 	background-color: #ffffff;
@@ -377,24 +398,47 @@ input:focus {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin: 110px auto 0 auto;
+		margin: 78px auto 0 auto;
 		max-width: 1170px;
 		
 	}
 
 	.deals-contant h2 {
-		margin: 0 0 95px 0;
+		margin: 0 0 88px 0;
 		font-weight: bold;
 		font-size: 54px;
 	}
 
 	.deals-list {
 		display: flex;
-		margin-bottom: 98px;
+		justify-content: space-between;
+		margin-bottom: 91px;
 	}
+
+	.deals:nth-of-type(1) {
+		flex-basis: 257px;
+		margin-left: 4px;
+	}
+
+	.deals:nth-of-type(2) {
+		flex-basis: 276px;
+		margin-left: 27px;
+	}
+
+	.deals:nth-of-type(3) {
+		flex-basis: 209px;
+		margin-left: 31px;
+	}
+
+
+	.deals:nth-of-type(4) {
+		flex-basis: 276px;
+	}
+
 
 	.deals {
 		display: flex;
+		flex-basis: 257px;
 		flex-wrap: wrap;
 		justify-content: center;
 		color: #8993ad;
@@ -404,21 +448,23 @@ input:focus {
 	}
 
 	.deals img {
-		margin-bottom: 30px;
+		margin-bottom: 18px;
 	}
 
 	.deals-btn {
-		margin-top: 95px;
+		
 		margin-bottom: 102px;
 	}
 
 .example-block {
 	background-color: #fbfbfb;
 	margin: 0 auto;
+	padding-bottom: 104px;
 }
 
 	.example-block h2 {
-		margin-bottom: 115px;
+		margin-top: 90px;
+		margin-bottom: 101px;
 		font-weight: bold;
 		font-size: 54px;
 		text-align: center;
@@ -519,6 +565,7 @@ input:focus {
 
 
 	.slider__img img {
+		margin-bottom: 40px;
 		width: 100%;
 	}
 
@@ -543,6 +590,7 @@ input:focus {
 	}
 
 	.btn-exampls {
+		margin-top: 66px;
 		color: white;
 		text-decoration: none;
 		width: 270px;
@@ -560,7 +608,7 @@ input:focus {
 	justify-content: center;
 	background: linear-gradient(45deg, #ff8f5a, #ff2f96 );
 	color: #ffffff;
-	margin-top: 100px;
+	
 }
 
 	.reference svg {
@@ -570,51 +618,59 @@ input:focus {
 	}
 
 	.reference svg:nth-of-type(1) {
-		   	left: 130px;
+		   	left: 122px;
 			width: 51px;
-			top: 66px;
+			top: 57px;
 		} 
 
 	.reference svg:nth-of-type(2) {
-		    bottom: 60px;
+		    bottom: 54px;
 			left: 242px;
 			width: 38px;
 			transform: rotate(0deg);
 		}
 
 	.reference svg:nth-of-type(3) {
-		    bottom: 47px;
-			right: 103px;
+		    bottom: 38px;
+			right: 92px;
 			width: 47px;
 			transform: rotate(-46deg);
 		}
 
 	.reference svg:nth-of-type(4) {
-		right: 206px;
-		top: 81px;
+		right: 192px;
+		top: 74px;
 		width: 51px;
 	}
 
 	.reference svg:nth-of-type(5) {
-		    bottom: 20px;
-			right: 409px;
+		    bottom: 11px;
+			right: 396px;
 			width: 84px;
 		}
 
 
 
 	.reference h2 {
-		margin: 98px auto 55px auto;
+		margin: 77px auto 35px auto;
 		font-weight: bold;
 		font-size: 45px;
+		line-height: 58px;
 	}
+
+	.reference-text {
+		display: flex;
+		flex-direction: column;
+		padding-left: 40px;
+	}
+
 	.referenca-text__small {
 		display: flex;
 	}
 	.reference p {
-		margin: 0 auto 88px auto;
+		margin: 0 0px 88px 0px;
 		font-size: 18px;
-		padding-right: 29%;
+		
 	}
 
 
@@ -624,12 +680,15 @@ input:focus {
     max-width: 1170px;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 88px 0 95px 0px;
+    padding: 70px 0 43px 0px;
 }
+	.contacts-deals__list ul {
+		padding-left: 7px;
+	}
 
 	.contacts-deals__list ul li {
 		list-style: none;
-		padding-bottom: 20px;
+		padding-bottom: 13px;
 		font-size: 18px;
 		
 	}
@@ -639,9 +698,17 @@ input:focus {
 		text-decoration: none;
 	}
 
+	.contacts-deals__list a:hover {
+		color: black;
+	}
+
+	.contacts-info {
+		margin-left: 37px;
+	}
+
 	.contacts-info ul li {
 		list-style: none;
-		padding-bottom: 40px;
+		padding-bottom: 30px;
 		padding-left: 40px;
 		font-size: 25px; 
 	}
@@ -651,10 +718,14 @@ input:focus {
 		color: black;
 	}
 
+	.contacts-info a:hover {
+		color: #f53f4f;
+	}
+
 	.contacts-phone {
 		background-image: url('img/phone.png');
 		background-repeat: no-repeat;
-		background-position: 0 4px;
+		background-position: 0 6px;
 		
 		font-size: 25px;
 	}
@@ -662,7 +733,7 @@ input:focus {
 	.contacts-mail {
 		background-image: url('img/mail.png');
 		background-repeat: no-repeat;
-		background-position: 0 5px;
+		background-position: 0 9px;
 		
 		font-size: 25px;
 	}
@@ -672,6 +743,7 @@ input:focus {
 		flex-wrap: wrap;
 		flex-basis: 248px;
 		align-items: baseline;
+		margin-top: 10px;
 
 	}
 
@@ -685,6 +757,12 @@ input:focus {
 		font-size: 16px;
 		margin-right: 0;
 		text-align: center;
+	}
+
+	.contacts-btn:hover {
+		border-color: #c14b55;
+		color: #c14b55;
+		transition: 0.1s;
 	}
 
 
@@ -763,30 +841,31 @@ input:focus {
 
 
 	.personal-block svg:nth-of-type(1) {
-		left: 80px;
+		top: 10px;
+		left: 75px;
 	    width: 47px;
 	 }
 
 
 
 	.personal-block svg:nth-of-type(2) {
-		top: 415px;
+		top: 491px;
 		left: 57px;
 		width: 35px;
 	}
 
 	.personal-block svg:nth-of-type(3) {
-		top: 19px;
+		top: -2px;
 		left: 87%;
 		width: 66px;
 		transform: rotate(-33deg);
 	}
 
 	.personal-block svg:nth-of-type(4) {
-		top: 455px;
-		left: 355px;
+		top: 440px;
+		left: 357px;
 		width: 58px;
-		transform: rotate(5deg);
+		transform: rotate(-1deg);
 	}
 
 	.personal-block svg:nth-of-type(5) {
@@ -798,14 +877,25 @@ input:focus {
 
 	.personal-block svg:nth-of-type(6) {
 		display: block;
-	    top: 69px;
+	    top: 90px;
 	    left: 424px;
 	    width: 61px;
-	    transform: rotate(25deg);
+	    transform: rotate(35deg);
 	}
 
 	.personal-text {
 		margin-top: 106px;
+	}
+
+	.personal-text h1 {
+		font-size: 54px;
+		margin-top: 63px;
+		margin-bottom: 21px;
+	}
+
+	.personal-text h2 {
+		
+		margin-bottom: 51px;
 	}
 
 	.personal-btn {
@@ -858,14 +948,18 @@ input:focus {
 		flex-wrap: wrap;
 		justify-content: space-between;
 		max-width: 660px;
+		margin-bottom: 8px;
 	}
 	
 
 	.deals {
 		max-width: 260px;
-		margin-bottom: 90px;
+		margin-bottom: 76px;
 	}
-
+	
+	.example-block {
+		padding-bottom: 100px;
+	}
 	
 	.exampls-list {
 		width: 100%;
@@ -890,6 +984,18 @@ input:focus {
 		flex-wrap: wrap;
 		margin-bottom: 100px;
 
+	}
+
+	.slider__item {
+		font-size: 25px;
+	}
+
+	.slider__img img {
+		margin-bottom: 20px;
+	}
+
+	.slider .slick-dots {
+		margin-top: 90px;
 	}
 	
 
@@ -918,19 +1024,21 @@ input:focus {
 		width: 320px;
 		height: 68px;
 		line-height: 68px;
+		margin-top: 45px;
 	}
+
+	
 
 
 
 	
-	.reference-text {
-		padding-left: 20px;
-	}
+	
 
 	.reference svg:nth-of-type(1) {
-	    left: 156px;
+		top: 8px;
+	    left: 154px;
 	    width: 32px;
-	    top: 22px;
+	    
 	}
 
 	.reference svg:nth-of-type(2), .reference svg:nth-of-type(3) {
@@ -938,8 +1046,8 @@ input:focus {
 	}
 
 	.reference svg:nth-of-type(4) {
+		top: 286px;
 	    right: 94px;
-		top: 320px;
 		width: 50px;
 		transform: rotate(-2deg);
 	}
@@ -948,12 +1056,25 @@ input:focus {
 	.reference svg:nth-of-type(5) {
 	    width: 56px;
 	    right: 455px;
-	    bottom: 32px;
+	    bottom: 17px;
 	}
 
 	.reference p {
-		
-		padding-right: 28%;
+		margin-bottom: 82px;
+		padding-right: 23%;
+		line-height: 27px;
+	}
+
+	.contacts-block {
+		padding-top: 90px;
+	}
+
+	.contacts-deals__list {
+		margin-left: 40px;
+	}
+
+	.contacts-info {
+		margin-left: 15px;
 	}
 
 	.contacts-social {
