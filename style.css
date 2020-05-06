@@ -560,6 +560,7 @@ input:focus {
 		border-radius: 50px;
 		border:0;
 		cursor: pointer;
+		margin-right: 10px;
 
 	}
 
@@ -801,7 +802,7 @@ input:focus {
 .footer {
 	color: #ffffff;
 	background-color: #31293c;
-	padding: 35px 0;
+	padding: 30px 0 35px 0;
 	text-align: center;
 	font-size: 16px;
 }
@@ -1487,24 +1488,227 @@ input:focus {
 }
 
 @media (max-width: 320px) {
+
+	.menu-container {
+		margin-top: 24px;
+	}
+
+	.menu-toggle {
+		width: 24px;
+		height: 19px;
+		margin-right: 36px;
+	}
+
+	.burger span {
+		top: 5px;
+	}
+
+	.burger:after {
+		top: 9px;
+	}
+
+	.number {
+		margin-top: -2px;
+	}
+
+	.personal-block svg:nth-of-type(1) {
+	    left: 48px;
+	    width: 23px;
+	    top: -61px;
+	}
+
+	.personal-block svg:nth-of-type(4) {
+		top: -74px;
+		left: 175px;
+		width: 23px;
+		transform: rotate(-10deg);
+    	display: block; 
+	}
+
+	.personal-block svg:nth-of-type(5) {
+	    top: -13px;
+	    left: 246px;
+	    width: 35px;
+	    transform: rotate(0deg);
+	}
 		
 	.personal-text {
+		margin-top: 10px;
 		align-items: flex-start;
 	}	
 
-	.personal-fio h1{
+	.personal-text h1 {
 		margin-left: 5px;
+		margin-bottom: 5px;
 	}
 
 	.personal-text h2 {
 		width: 217px;
 		align-self: center;
+		margin-bottom: 22px;
 		padding-right: 20px;
+
+	}
+
+	.personal__img img {
+		height: 321px;
+	}
+
+	.deals-contant {
+		margin-top: 36px;
+	}
+
+	.deals-contant h2 {
+		margin-bottom: 43px;
+	}
+
+	.deals {
+		margin-bottom: 44px;
+	}
+
+	.deals img {
+		width: 60px;
+	}
+
+	.deals:nth-of-type(2) {
+	    margin-left: 2px;
+	}
+
+	.deals:nth-of-type(3) {
+	    margin-left: 2px;
+	}
+
+	.deals:nth-of-type(4) {
+	    margin-bottom: 29px;
+	}
+
+	.deals-btn {
+		margin-bottom: 92px;
+	}
+
+	.slider-container {
+		padding-bottom: 0px;
+	}
+
+	.slider {
+		padding:0 4px;
+	}
+
+	.slider__item {
+		font-size: 18px;
+	}
+
+	.slider__img img {
+		height: 250px;
+		margin-bottom: 11px;
+	}
+
+	.slick-dots {
+		margin-top: 35px;
+	}
+
+	.slider .slick-dots {
+		margin-top: 35px;
+	}
+
+	.slider .slick-dots button {
+		width: 9px;
+		height: 11px;
+		margin-right: 0px;
+	}
+
+	.example-block h2 {
+		margin-bottom: 40px;
+	}
+
+	.btn-exampls {
+		margin-top: 33px;
+	}
+
+	.example-block {
+		padding-bottom: 0px;
+	}
+
+	.reference-text h2 {
+		margin: 39px 0 34px 0;
+		line-height: 41px;
+	}
+
+	.reference p {
+		margin-bottom: 42px;
+		line-height: 30px;
+	}
+
+	.contacts-block {
+		padding-top: 30px;
+	}
+
+	.contacts-deals__list {
+		margin-left: 0px;
+	}
+
+	.contacts-deals__list ul {
+		margin-bottom: 11px;
+
+	}
+
+	.contacts-deals__list ul li {
+		padding-bottom: 16px;
+   		font-size: 15px;
+
+	}
+
+	.contacts-info {
+   		margin-left: 2px;
+	}
+
+	.contacts-phone, .contacts-mail {
+		background-size: 15px;
+	}
+
+	.contacts-info ul li {
+	    padding-bottom: 19px;
+	    padding-left: 31px;
+	 
+	}
+	
+	.contacts-social {
+		margin-top: -12px;
 	}
 
 	.contacts-btn {
 		margin-right: 0;
 	}
+
+	.footer {
+		padding: 21px 0px;
+	}
+	
+	.vk {
+		margin-right: 27px !important;
+	}
+
+	.face {
+		margin-right: 35px !important;
+	}
+
+	.twit {
+		margin-right: 24px !important;
+		background-size: 200px;
+		background-position: 85px;
+	}
+
+	.inst {
+		width: 31px;
+		background-size: 200px;
+		
+		background-position: 32px;
+	}
+
+
+
+
+	
 
 
 	
