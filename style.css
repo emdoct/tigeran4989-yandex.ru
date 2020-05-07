@@ -1568,14 +1568,25 @@ input:focus {
 
 	.deals img {
 		width: 60px;
+		margin-bottom: 16px;
+	}
+
+	.deals:nth-of-type(1) {
+	    margin-left: 0px;
+	    margin-bottom: 53px;
+	    line-height: 21px;
+	    flex-basis: 208px;
+
 	}
 
 	.deals:nth-of-type(2) {
-	    margin-left: 2px;
+	    margin-left: 0px;
+	     margin-bottom: 48px;
 	}
 
 	.deals:nth-of-type(3) {
-	    margin-left: 2px;
+	    margin-left: 0px;
+	    flex-basis: 180px;
 	}
 
 	.deals:nth-of-type(4) {
@@ -1622,7 +1633,7 @@ input:focus {
 	}
 
 	.btn-exampls {
-		margin-top: 33px;
+		margin-top: 36px;
 	}
 
 	.example-block {
@@ -1635,12 +1646,13 @@ input:focus {
 	}
 
 	.reference p {
-		margin-bottom: 42px;
+		margin-bottom: 39px;
 		line-height: 30px;
 	}
 
 	.contacts-block {
-		padding-top: 30px;
+		padding: 30px 0 50px 0;
+
 	}
 
 	.contacts-deals__list {
