@@ -1581,7 +1581,7 @@ input:focus {
 
 	.deals:nth-of-type(2) {
 	    margin-left: 0px;
-	     margin-bottom: 48px;
+	    margin-bottom: 48px;
 	}
 
 	.deals:nth-of-type(3) {
@@ -1624,7 +1624,7 @@ input:focus {
 
 	.slider .slick-dots button {
 		width: 9px;
-		height: 11px;
+		height: 15px;
 		margin-right: 0px;
 	}
 
